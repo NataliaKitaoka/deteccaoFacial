@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 # Importando Classificador para deteccaoo de face
-classificadorFace = cv2.CascadeClassifier("/home/natalia/.local/lib/python3.6/site-packages/cv2/data/haarcascade_frontalface_default.xml")
+classificadorFace = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 def detectorFace (img, size=0.5):
     
