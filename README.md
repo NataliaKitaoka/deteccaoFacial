@@ -12,7 +12,7 @@ O classificador facial utilizado foi o cascadeClassifier().Ele é um classificad
 
 *Observações:
 
-O classificador 'haarcascade_frontalface_default.xml' possui limitações de detecção, porém, dentre os classificadores cascade(), este foi o que até então apresentou-se mais satisfatório durante os testes.
+O classificador 'haarcascade_frontalface_default.xml' possui limitações de detecção, porém, dentre os classificadores cascade(), este foi o que até então apresentou-se mais satisfatório durante os testes. Foi percebido que para imagens de rosto muito ampliadas, ou seja, sem o contorno do rosto exposto na imagem, a detecção facial não foi possível. 
 
 
 
